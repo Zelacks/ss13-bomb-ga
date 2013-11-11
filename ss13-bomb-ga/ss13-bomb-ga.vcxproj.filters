@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\BOMB">
+      <UniqueIdentifier>{62444ce0-0b42-42b9-a5df-fcaf1fa869e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BOMB">
+      <UniqueIdentifier>{66e635b6-1d66-4a10-be9c-25cb1fe18303}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gasmix.h">
+      <Filter>Header Files\BOMB</Filter>
+    </ClInclude>
+    <ClInclude Include="tank.h">
+      <Filter>Header Files\BOMB</Filter>
+    </ClInclude>
+    <ClInclude Include="tanktransfer.h">
+      <Filter>Header Files\BOMB</Filter>
+    </ClInclude>
+    <ClInclude Include="genAlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tank.cpp">
+      <Filter>Source Files\BOMB</Filter>
+    </ClCompile>
+    <ClCompile Include="GasMix.cpp">
+      <Filter>Source Files\BOMB</Filter>
+    </ClCompile>
+    <ClCompile Include="tanktransfer.cpp">
+      <Filter>Source Files\BOMB</Filter>
+    </ClCompile>
+    <ClCompile Include="GenAlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
